@@ -15,7 +15,7 @@ import { HiDownload } from 'react-icons/hi'
 export default function Intro() {
     const { ref } = useSectionInView('Home', 0.5)
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
-    let yearsOfFreelancingExperience = dateDiffInYears(new Date("2020-11-1"), new Date(Date.now()))
+    let yearsOfFreelancingExperience = 2
     return (
         <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className='flex items-center justify-center'>

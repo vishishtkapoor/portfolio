@@ -1,6 +1,5 @@
 "use client";
 
-
 import { useActiveSectionContext } from '@/context/active-section-context';
 import { links } from '@/lib/data';
 import clsx from 'clsx';
